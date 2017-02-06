@@ -14,7 +14,7 @@ class Stack(object):
 
 	def push(self, item):
 
-		if not self.items or item > self.maxs[-1]:
+		if not self.items or item > == self.maxs[-1]:
 			self.maxs.append(item)
 
 		self.items.append(item)
@@ -32,6 +32,8 @@ class MaxStack(Stack):
 
 	def get_max(self):
 		return self.maxs[-1]
+
+
 
 stack = MaxStack()
 
