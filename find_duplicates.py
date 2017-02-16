@@ -1,4 +1,4 @@
-def find_duplicates(arr, num):
+def find_duplicates(arr):
 	#naive way: two for loops
 	#better way: dictionary, but that doesn't save space (actually, a set)
 	#can't use bitwise or summing, because you'll end up with a sum, and won't be able to tell 
